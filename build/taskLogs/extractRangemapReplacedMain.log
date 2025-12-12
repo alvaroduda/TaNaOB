@@ -1,0 +1,11 @@
+Symbol range map extraction starting
+Processing 9 files
+processing com\suamod\AutoObsidianTrapMod.java
+processing com\suamod\ClientProxy.java
+processing com\suamod\CombatEvents.java
+processing com\suamod\CommonProxy.java
+processing com\suamod\LastHitRegistry.java
+processing com\suamod\TrapCommand.java
+processing com\suamod\TrapService.java
+processing com\suamod\TriggerTrapHandler.java
+processing com\suamod\TriggerTrapMessage.java

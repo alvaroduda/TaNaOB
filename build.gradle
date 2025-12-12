@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url = "https://files.minecraftforge.net/maven" }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+version = "1.0"
+group = "com.suamod"
+archivesBaseName = "TaNaOB"
+
+sourceCompatibility = targetCompatibility = '1.8'
+
+minecraft {
+    version = "1.8.9-11.15.1.1722"
+    runDir = "run"
+    mappings = "stable_22"
+}

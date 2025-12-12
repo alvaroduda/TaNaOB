@@ -1,0 +1,540 @@
+Symbol range map extraction starting
+Processing 9 files
+processing com\suamod\AutoObsidianTrapMod.java
+@|com\suamod\AutoObsidianTrapMod.java|8|18|com.suamod|package|com.suamod|(file)
+Class Start: com.suamod.AutoObsidianTrapMod
+   @|com\suamod\AutoObsidianTrapMod.java|655|675|SimpleNetworkWrapper|class|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+   @|com\suamod\AutoObsidianTrapMod.java|676|683|CHANNEL|field|com.suamod.AutoObsidianTrapMod|CHANNEL|
+   @|com\suamod\AutoObsidianTrapMod.java|832|843|CommonProxy|class|com.suamod.CommonProxy
+   @|com\suamod\AutoObsidianTrapMod.java|844|849|proxy|field|com.suamod.AutoObsidianTrapMod|proxy|
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\suamod\AutoObsidianTrapMod.java|890|894|init|method|com.suamod.AutoObsidianTrapMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\suamod\AutoObsidianTrapMod.java|895|917|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\suamod\AutoObsidianTrapMod.java|918|923|event|param|com.suamod.AutoObsidianTrapMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\suamod\AutoObsidianTrapMod.java|935|949|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\suamod\AutoObsidianTrapMod.java|950|959|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\suamod\AutoObsidianTrapMod.java|960|968|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\suamod\AutoObsidianTrapMod.java|973|985|CombatEvents|class|com.suamod.CombatEvents
+      @|com\suamod\AutoObsidianTrapMod.java|998|1005|CHANNEL|field|com.suamod.AutoObsidianTrapMod|CHANNEL
+      @|com\suamod\AutoObsidianTrapMod.java|1008|1023|NetworkRegistry|class|net.minecraftforge.fml.common.network.NetworkRegistry
+      @|com\suamod\AutoObsidianTrapMod.java|1024|1032|INSTANCE|field|net.minecraftforge.fml.common.network.NetworkRegistry|INSTANCE
+      @|com\suamod\AutoObsidianTrapMod.java|1033|1049|newSimpleChannel|method|net.minecraftforge.fml.common.network.NetworkRegistry|newSimpleChannel|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/network/simpleimpl/SimpleNetworkWrapper;
+      @|com\suamod\AutoObsidianTrapMod.java|1079|1086|CHANNEL|field|com.suamod.AutoObsidianTrapMod|CHANNEL
+      @|com\suamod\AutoObsidianTrapMod.java|1087|1102|registerMessage|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|registerMessage|(Ljava/lang/Class;Ljava/lang/Class;ILnet/minecraftforge/fml/relauncher/Side;)V
+      @|com\suamod\AutoObsidianTrapMod.java|1103|1121|TriggerTrapHandler|class|com.suamod.TriggerTrapHandler
+      @|com\suamod\AutoObsidianTrapMod.java|1129|1147|TriggerTrapMessage|class|com.suamod.TriggerTrapMessage
+      @|com\suamod\AutoObsidianTrapMod.java|1158|1162|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\suamod\AutoObsidianTrapMod.java|1163|1169|SERVER|field|net.minecraftforge.fml.relauncher.Side|SERVER
+      @|com\suamod\AutoObsidianTrapMod.java|1180|1185|proxy|field|com.suamod.AutoObsidianTrapMod|proxy
+      @|com\suamod\AutoObsidianTrapMod.java|1186|1190|init|method|com.suamod.CommonProxy|init|()V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: onServerStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com\suamod\AutoObsidianTrapMod.java|1239|1255|onServerStarting|method|com.suamod.AutoObsidianTrapMod|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+      @|com\suamod\AutoObsidianTrapMod.java|1256|1278|FMLServerStartingEvent|class|net.minecraftforge.fml.common.event.FMLServerStartingEvent
+      @|com\suamod\AutoObsidianTrapMod.java|1279|1284|event|param|com.suamod.AutoObsidianTrapMod|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com\suamod\AutoObsidianTrapMod.java|1296|1301|event|param|com.suamod.AutoObsidianTrapMod|onServerStarting|(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V|event|0
+      @|com\suamod\AutoObsidianTrapMod.java|1302|1323|registerServerCommand|method|net.minecraftforge.fml.common.event.FMLServerStartingEvent|registerServerCommand|(Lnet/minecraft/command/ICommand;)V
+      @|com\suamod\AutoObsidianTrapMod.java|1328|1339|TrapCommand|class|com.suamod.TrapCommand
+   Method End: onServerStarting(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+Class End  : com.suamod.AutoObsidianTrapMod
+endProcessing com\suamod\AutoObsidianTrapMod.java
+
+processing com\suamod\ClientProxy.java
+@|com\suamod\ClientProxy.java|8|18|com.suamod|package|com.suamod|(file)
+Class Start: com.suamod.ClientProxy
+   @|com\suamod\ClientProxy.java|527|537|KeyBinding|class|net.minecraft.client.settings.KeyBinding
+   @|com\suamod\ClientProxy.java|538|546|KEY_TRAP|field|com.suamod.ClientProxy|KEY_TRAP|
+   Method Start: init()V
+      @|com\suamod\ClientProxy.java|579|583|init|method|com.suamod.CommonProxy|init|()V
+      @|com\suamod\ClientProxy.java|596|604|KEY_TRAP|field|com.suamod.ClientProxy|KEY_TRAP
+      @|com\suamod\ClientProxy.java|611|621|KeyBinding|class|net.minecraft.client.settings.KeyBinding
+      @|com\suamod\ClientProxy.java|649|657|Keyboard|class|org.lwjgl.input.Keyboard
+      @|com\suamod\ClientProxy.java|658|663|KEY_O|field|org.lwjgl.input.Keyboard|KEY_O
+      @|com\suamod\ClientProxy.java|696|710|ClientRegistry|class|net.minecraftforge.fml.client.registry.ClientRegistry
+      @|com\suamod\ClientProxy.java|711|729|registerKeyBinding|method|net.minecraftforge.fml.client.registry.ClientRegistry|registerKeyBinding|(Lnet/minecraft/client/settings/KeyBinding;)V
+      @|com\suamod\ClientProxy.java|730|738|KEY_TRAP|field|com.suamod.ClientProxy|KEY_TRAP
+      @|com\suamod\ClientProxy.java|749|763|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\suamod\ClientProxy.java|764|773|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\suamod\ClientProxy.java|774|782|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+   Method End: init()V
+   Method Start: onKeyInput(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V
+      @|com\suamod\ClientProxy.java|833|843|onKeyInput|method|com.suamod.ClientProxy|onKeyInput|(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V
+      @|com\suamod\ClientProxy.java|844|868|InputEvent.KeyInputEvent|class|net.minecraftforge.fml.common.gameevent.InputEvent.KeyInputEvent
+      @|com\suamod\ClientProxy.java|869|874|event|param|com.suamod.ClientProxy|onKeyInput|(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V|event|0
+      @|com\suamod\ClientProxy.java|890|898|KEY_TRAP|field|com.suamod.ClientProxy|KEY_TRAP
+      @|com\suamod\ClientProxy.java|910|918|KEY_TRAP|field|com.suamod.ClientProxy|KEY_TRAP
+      @|com\suamod\ClientProxy.java|919|928|isPressed|method|net.minecraft.client.settings.KeyBinding|isPressed|()Z
+      @|com\suamod\ClientProxy.java|946|965|AutoObsidianTrapMod|class|com.suamod.AutoObsidianTrapMod
+      @|com\suamod\ClientProxy.java|966|973|CHANNEL|field|com.suamod.AutoObsidianTrapMod|CHANNEL
+      @|com\suamod\ClientProxy.java|974|986|sendToServer|method|net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper|sendToServer|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;)V
+      @|com\suamod\ClientProxy.java|991|1009|TriggerTrapMessage|class|com.suamod.TriggerTrapMessage
+   Method End: onKeyInput(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V
+Class End  : com.suamod.ClientProxy
+endProcessing com\suamod\ClientProxy.java
+
+processing com\suamod\CombatEvents.java
+@|com\suamod\CombatEvents.java|8|18|com.suamod|package|com.suamod|(file)
+Class Start: com.suamod.CombatEvents
+   Method Start: onAttackEntity(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V
+      @|com\suamod\CombatEvents.java|304|318|onAttackEntity|method|com.suamod.CombatEvents|onAttackEntity|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V
+      @|com\suamod\CombatEvents.java|319|336|AttackEntityEvent|class|net.minecraftforge.event.entity.player.AttackEntityEvent
+      @|com\suamod\CombatEvents.java|337|342|event|param|com.suamod.CombatEvents|onAttackEntity|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|event|0
+      @|com\suamod\CombatEvents.java|358|363|event|param|com.suamod.CombatEvents|onAttackEntity|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|event|0
+      @|com\suamod\CombatEvents.java|364|376|entityPlayer|field|net.minecraftforge.event.entity.player.PlayerEvent|entityPlayer
+      @|com\suamod\CombatEvents.java|406|411|event|param|com.suamod.CombatEvents|onAttackEntity|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|event|0
+      @|com\suamod\CombatEvents.java|412|424|entityPlayer|field|net.minecraftforge.event.entity.player.PlayerEvent|entityPlayer
+      @|com\suamod\CombatEvents.java|425|433|worldObj|field|net.minecraft.entity.Entity|worldObj
+      @|com\suamod\CombatEvents.java|434|442|isRemote|field|net.minecraft.world.World|isRemote
+      @|com\suamod\CombatEvents.java|460|466|Entity|class|net.minecraft.entity.Entity
+      @|com\suamod\CombatEvents.java|476|481|event|param|com.suamod.CombatEvents|onAttackEntity|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|event|0
+      @|com\suamod\CombatEvents.java|482|488|target|field|net.minecraftforge.event.entity.player.AttackEntityEvent|target
+      @|com\suamod\CombatEvents.java|520|534|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\CombatEvents.java|550|565|LastHitRegistry|class|com.suamod.LastHitRegistry
+      @|com\suamod\CombatEvents.java|566|576|setLastHit|method|com.suamod.LastHitRegistry|setLastHit|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/entity/player/EntityPlayerMP;)V
+      @|com\suamod\CombatEvents.java|578|592|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\CombatEvents.java|594|599|event|param|com.suamod.CombatEvents|onAttackEntity|(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V|event|0
+      @|com\suamod\CombatEvents.java|600|612|entityPlayer|field|net.minecraftforge.event.entity.player.PlayerEvent|entityPlayer
+      @|com\suamod\CombatEvents.java|615|629|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+   Method End: onAttackEntity(Lnet/minecraftforge/event/entity/player/AttackEntityEvent;)V
+Class End  : com.suamod.CombatEvents
+endProcessing com\suamod\CombatEvents.java
+
+processing com\suamod\CommonProxy.java
+@|com\suamod\CommonProxy.java|8|18|com.suamod|package|com.suamod|(file)
+Class Start: com.suamod.CommonProxy
+   Method Start: init()V
+      @|com\suamod\CommonProxy.java|65|69|init|method|com.suamod.CommonProxy|init|()V
+   Method End: init()V
+Class End  : com.suamod.CommonProxy
+endProcessing com\suamod\CommonProxy.java
+
+processing com\suamod\LastHitRegistry.java
+@|com\suamod\LastHitRegistry.java|8|18|com.suamod|package|com.suamod|(file)
+Class Start: com.suamod.LastHitRegistry
+   @|com\suamod\LastHitRegistry.java|293|297|UUID|class|java.util.UUID
+   @|com\suamod\LastHitRegistry.java|299|303|UUID|class|java.util.UUID
+   @|com\suamod\LastHitRegistry.java|289|292|Map|class|java.util.Map
+   @|com\suamod\LastHitRegistry.java|305|313|LAST_HIT|field|com.suamod.LastHitRegistry|LAST_HIT|
+   @|com\suamod\LastHitRegistry.java|320|327|HashMap|class|java.util.HashMap
+   Method Start: setLastHit(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/entity/player/EntityPlayerMP;)V
+      @|com\suamod\LastHitRegistry.java|370|380|setLastHit|method|com.suamod.LastHitRegistry|setLastHit|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/entity/player/EntityPlayerMP;)V
+      @|com\suamod\LastHitRegistry.java|381|395|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\LastHitRegistry.java|396|404|attacker|param|com.suamod.LastHitRegistry|setLastHit|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/entity/player/EntityPlayerMP;)V|attacker|0
+      @|com\suamod\LastHitRegistry.java|406|420|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\LastHitRegistry.java|421|427|target|param|com.suamod.LastHitRegistry|setLastHit|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/entity/player/EntityPlayerMP;)V|target|1
+      @|com\suamod\LastHitRegistry.java|439|447|LAST_HIT|field|com.suamod.LastHitRegistry|LAST_HIT
+      @|com\suamod\LastHitRegistry.java|448|451|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\suamod\LastHitRegistry.java|452|460|attacker|param|com.suamod.LastHitRegistry|setLastHit|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/entity/player/EntityPlayerMP;)V|attacker|0
+      @|com\suamod\LastHitRegistry.java|461|472|getUniqueID|method|net.minecraft.entity.Entity|getUniqueID|()Ljava/util/UUID;
+      @|com\suamod\LastHitRegistry.java|476|482|target|param|com.suamod.LastHitRegistry|setLastHit|(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/entity/player/EntityPlayerMP;)V|target|1
+      @|com\suamod\LastHitRegistry.java|483|494|getUniqueID|method|net.minecraft.entity.Entity|getUniqueID|()Ljava/util/UUID;
+   Method End: setLastHit(Lnet/minecraft/entity/player/EntityPlayerMP;Lnet/minecraft/entity/player/EntityPlayerMP;)V
+   Method Start: getLastHitTarget(Lnet/minecraft/world/WorldServer;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;
+      @|com\suamod\LastHitRegistry.java|552|568|getLastHitTarget|method|com.suamod.LastHitRegistry|getLastHitTarget|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;
+      @|com\suamod\LastHitRegistry.java|537|551|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\LastHitRegistry.java|569|580|WorldServer|class|net.minecraft.world.WorldServer
+      @|com\suamod\LastHitRegistry.java|581|586|world|param|com.suamod.LastHitRegistry|getLastHitTarget|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;|world|0
+      @|com\suamod\LastHitRegistry.java|588|602|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\LastHitRegistry.java|603|611|attacker|param|com.suamod.LastHitRegistry|getLastHitTarget|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;|attacker|1
+      @|com\suamod\LastHitRegistry.java|623|627|UUID|class|java.util.UUID
+      @|com\suamod\LastHitRegistry.java|639|647|LAST_HIT|field|com.suamod.LastHitRegistry|LAST_HIT
+      @|com\suamod\LastHitRegistry.java|648|651|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\suamod\LastHitRegistry.java|652|660|attacker|param|com.suamod.LastHitRegistry|getLastHitTarget|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;|attacker|1
+      @|com\suamod\LastHitRegistry.java|661|672|getUniqueID|method|net.minecraft.entity.Entity|getUniqueID|()Ljava/util/UUID;
+      @|com\suamod\LastHitRegistry.java|728|740|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\suamod\LastHitRegistry.java|745|750|world|param|com.suamod.LastHitRegistry|getLastHitTarget|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;|world|0
+      @|com\suamod\LastHitRegistry.java|751|772|getPlayerEntityByUUID|method|net.minecraft.world.World|getPlayerEntityByUUID|(Ljava/util/UUID;)Lnet/minecraft/entity/player/EntityPlayer;
+      @|com\suamod\LastHitRegistry.java|811|825|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\LastHitRegistry.java|857|871|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+   Method End: getLastHitTarget(Lnet/minecraft/world/WorldServer;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;
+Class End  : com.suamod.LastHitRegistry
+endProcessing com\suamod\LastHitRegistry.java
+
+processing com\suamod\TrapCommand.java
+@|com\suamod\TrapCommand.java|8|18|com.suamod|package|com.suamod|(file)
+Class Start: com.suamod.TrapCommand
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\suamod\TrapCommand.java|890|904|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\suamod\TrapCommand.java|883|889|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\suamod\TrapCommand.java|971|986|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\suamod\TrapCommand.java|964|970|String|class|java.lang.String
+      @|com\suamod\TrapCommand.java|987|1001|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\suamod\TrapCommand.java|1002|1008|sender|param|com.suamod.TrapCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\suamod\TrapCommand.java|1073|1087|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\suamod\TrapCommand.java|1088|1102|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\suamod\TrapCommand.java|1103|1109|sender|param|com.suamod.TrapCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\suamod\TrapCommand.java|1111|1117|String|class|java.lang.String
+      @|com\suamod\TrapCommand.java|1120|1124|args|param|com.suamod.TrapCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\suamod\TrapCommand.java|1136|1150|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapCommand.java|1194|1218|getCommandSenderAsPlayer|method|net.minecraft.command.CommandBase|getCommandSenderAsPlayer|(Lnet/minecraft/command/ICommandSender;)Lnet/minecraft/entity/player/EntityPlayerMP;
+      @|com\suamod\TrapCommand.java|1219|1225|sender|param|com.suamod.TrapCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\suamod\TrapCommand.java|1245|1268|PlayerNotFoundException|class|net.minecraft.command.PlayerNotFoundException
+      @|com\suamod\TrapCommand.java|1312|1323|TrapService|class|com.suamod.TrapService
+      @|com\suamod\TrapCommand.java|1324|1331|runTrap|method|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+Class End  : com.suamod.TrapCommand
+endProcessing com\suamod\TrapCommand.java
+
+processing com\suamod\TrapService.java
+@|com\suamod\TrapService.java|8|18|com.suamod|package|com.suamod|(file)
+Class Start: com.suamod.TrapService
+   Method Start: runTrap(Lnet/minecraft/entity/player/EntityPlayerMP;)V
+      @|com\suamod\TrapService.java|637|644|runTrap|method|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V
+      @|com\suamod\TrapService.java|645|659|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|660|668|executor|param|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V|executor|0
+      @|com\suamod\TrapService.java|680|691|WorldServer|class|net.minecraft.world.WorldServer
+      @|com\suamod\TrapService.java|701|712|WorldServer|class|net.minecraft.world.WorldServer
+      @|com\suamod\TrapService.java|714|722|executor|param|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V|executor|0
+      @|com\suamod\TrapService.java|723|731|worldObj|field|net.minecraft.entity.Entity|worldObj
+      @|com\suamod\TrapService.java|741|750|Resources|class|com.suamod.TrapService.Resources
+      @|com\suamod\TrapService.java|757|770|findResources|method|com.suamod.TrapService|findResources|(Lnet/minecraft/entity/player/EntityPlayerMP;)Lcom/suamod/TrapService$Resources;
+      @|com\suamod\TrapService.java|771|779|executor|param|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V|executor|0
+      @|com\suamod\TrapService.java|823|837|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|847|857|findTarget|method|com.suamod.TrapService|findTarget|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;
+      @|com\suamod\TrapService.java|865|873|executor|param|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V|executor|0
+      @|com\suamod\TrapService.java|920|928|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|940|948|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|949|959|MathHelper|class|net.minecraft.util.MathHelper
+      @|com\suamod\TrapService.java|960|972|floor_double|method|net.minecraft.util.MathHelper|floor_double|(D)I
+      @|com\suamod\TrapService.java|980|984|posX|field|net.minecraft.entity.Entity|posX
+      @|com\suamod\TrapService.java|987|997|MathHelper|class|net.minecraft.util.MathHelper
+      @|com\suamod\TrapService.java|998|1010|floor_double|method|net.minecraft.util.MathHelper|floor_double|(D)I
+      @|com\suamod\TrapService.java|1018|1022|posY|field|net.minecraft.entity.Entity|posY
+      @|com\suamod\TrapService.java|1025|1035|MathHelper|class|net.minecraft.util.MathHelper
+      @|com\suamod\TrapService.java|1036|1048|floor_double|method|net.minecraft.util.MathHelper|floor_double|(D)I
+      @|com\suamod\TrapService.java|1056|1060|posZ|field|net.minecraft.entity.Entity|posZ
+      @|com\suamod\TrapService.java|1072|1080|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|1093|1095|up|method|net.minecraft.util.BlockPos|up|()Lnet/minecraft/util/BlockPos;
+      @|com\suamod\TrapService.java|1107|1120|surroundSides|method|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|1134|1142|executor|param|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V|executor|0
+      @|com\suamod\TrapService.java|1158|1166|placeTop|method|com.suamod.TrapService|placeTop|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|1179|1181|up|method|net.minecraft.util.BlockPos|up|()Lnet/minecraft/util/BlockPos;
+      @|com\suamod\TrapService.java|1185|1193|executor|param|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V|executor|0
+      @|com\suamod\TrapService.java|1209|1218|placeLava|method|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|1232|1240|executor|param|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V|executor|0
+      @|com\suamod\TrapService.java|1256|1274|placeWaterAdjacent|method|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|1288|1296|executor|param|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V|executor|0
+   Method End: runTrap(Lnet/minecraft/entity/player/EntityPlayerMP;)V
+   Class Start: com.suamod.TrapService.Resources
+      @|com\suamod\TrapService.java|1360|1369|blockSlot|field|com.suamod.TrapService.Resources|blockSlot|
+      @|com\suamod\TrapService.java|1388|1396|lavaSlot|field|com.suamod.TrapService.Resources|lavaSlot|
+      @|com\suamod\TrapService.java|1415|1424|waterSlot|field|com.suamod.TrapService.Resources|waterSlot|
+   Class End  : com.suamod.TrapService.Resources
+   Method Start: findResources(Lnet/minecraft/entity/player/EntityPlayerMP;)Lcom/suamod/TrapService$Resources;
+      @|com\suamod\TrapService.java|1467|1480|findResources|method|com.suamod.TrapService|findResources|(Lnet/minecraft/entity/player/EntityPlayerMP;)Lcom/suamod/TrapService$Resources;
+      @|com\suamod\TrapService.java|1457|1466|Resources|class|com.suamod.TrapService.Resources
+      @|com\suamod\TrapService.java|1481|1495|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|1496|1502|player|param|com.suamod.TrapService|findResources|(Lnet/minecraft/entity/player/EntityPlayerMP;)Lcom/suamod/TrapService$Resources;|player|0
+      @|com\suamod\TrapService.java|1514|1523|Resources|class|com.suamod.TrapService.Resources
+      @|com\suamod\TrapService.java|1534|1543|Resources|class|com.suamod.TrapService.Resources
+      @|com\suamod\TrapService.java|1650|1659|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\suamod\TrapService.java|1664|1670|player|param|com.suamod.TrapService|findResources|(Lnet/minecraft/entity/player/EntityPlayerMP;)Lcom/suamod/TrapService$Resources;|player|0
+      @|com\suamod\TrapService.java|1671|1680|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\suamod\TrapService.java|1681|1694|mainInventory|field|net.minecraft.entity.player.InventoryPlayer|mainInventory
+      @|com\suamod\TrapService.java|1748|1752|Item|class|net.minecraft.item.Item
+      @|com\suamod\TrapService.java|1760|1767|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com\suamod\TrapService.java|1801|1810|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\suamod\TrapService.java|1830|1835|Block|class|net.minecraft.block.Block
+      @|com\suamod\TrapService.java|1842|1851|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\suamod\TrapService.java|1857|1865|getBlock|method|net.minecraft.item.ItemBlock|getBlock|()Lnet/minecraft/block/Block;
+      @|com\suamod\TrapService.java|1894|1900|Blocks|class|net.minecraft.init.Blocks
+      @|com\suamod\TrapService.java|1901|1917|cobblestone_wall|field|net.minecraft.init.Blocks|cobblestone_wall
+      @|com\suamod\TrapService.java|1923|1932|blockSlot|field|com.suamod.TrapService.Resources|blockSlot
+      @|com\suamod\TrapService.java|1982|1988|Blocks|class|net.minecraft.init.Blocks
+      @|com\suamod\TrapService.java|1989|1995|planks|field|net.minecraft.init.Blocks|planks
+      @|com\suamod\TrapService.java|2004|2010|Blocks|class|net.minecraft.init.Blocks
+      @|com\suamod\TrapService.java|2011|2014|log|field|net.minecraft.init.Blocks|log
+      @|com\suamod\TrapService.java|2023|2029|Blocks|class|net.minecraft.init.Blocks
+      @|com\suamod\TrapService.java|2030|2034|log2|field|net.minecraft.init.Blocks|log2
+      @|com\suamod\TrapService.java|2133|2141|lavaSlot|field|com.suamod.TrapService.Resources|lavaSlot
+      @|com\suamod\TrapService.java|2157|2162|Items|class|net.minecraft.init.Items
+      @|com\suamod\TrapService.java|2163|2174|lava_bucket|field|net.minecraft.init.Items|lava_bucket
+      @|com\suamod\TrapService.java|2180|2188|lavaSlot|field|com.suamod.TrapService.Resources|lavaSlot
+      @|com\suamod\TrapService.java|2214|2223|waterSlot|field|com.suamod.TrapService.Resources|waterSlot
+      @|com\suamod\TrapService.java|2239|2244|Items|class|net.minecraft.init.Items
+      @|com\suamod\TrapService.java|2245|2257|water_bucket|field|net.minecraft.init.Items|water_bucket
+      @|com\suamod\TrapService.java|2263|2272|waterSlot|field|com.suamod.TrapService.Resources|waterSlot
+      @|com\suamod\TrapService.java|2304|2313|blockSlot|field|com.suamod.TrapService.Resources|blockSlot
+      @|com\suamod\TrapService.java|2325|2334|blockSlot|field|com.suamod.TrapService.Resources|blockSlot
+      @|com\suamod\TrapService.java|2390|2399|blockSlot|field|com.suamod.TrapService.Resources|blockSlot
+      @|com\suamod\TrapService.java|2413|2421|lavaSlot|field|com.suamod.TrapService.Resources|lavaSlot
+      @|com\suamod\TrapService.java|2435|2444|waterSlot|field|com.suamod.TrapService.Resources|waterSlot
+   Method End: findResources(Lnet/minecraft/entity/player/EntityPlayerMP;)Lcom/suamod/TrapService$Resources;
+   Method Start: findTarget(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;
+      @|com\suamod\TrapService.java|2526|2536|findTarget|method|com.suamod.TrapService|findTarget|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;
+      @|com\suamod\TrapService.java|2511|2525|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|2537|2542|World|class|net.minecraft.world.World
+      @|com\suamod\TrapService.java|2543|2548|world|param|com.suamod.TrapService|findTarget|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;|world|0
+      @|com\suamod\TrapService.java|2550|2564|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|2565|2571|player|param|com.suamod.TrapService|findTarget|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;|player|1
+      @|com\suamod\TrapService.java|2583|2587|List|class|java.util.List
+      @|com\suamod\TrapService.java|2588|2600|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\suamod\TrapService.java|2612|2617|world|param|com.suamod.TrapService|findTarget|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;|world|0
+      @|com\suamod\TrapService.java|2618|2632|playerEntities|field|net.minecraft.world.World|playerEntities
+      @|com\suamod\TrapService.java|2642|2656|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|2696|2702|Double|class|java.lang.Double
+      @|com\suamod\TrapService.java|2703|2712|MAX_VALUE|field|java.lang.Double|MAX_VALUE
+      @|com\suamod\TrapService.java|2727|2739|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\suamod\TrapService.java|2786|2800|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|2834|2840|player|param|com.suamod.TrapService|findTarget|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;|player|1
+      @|com\suamod\TrapService.java|2877|2896|getDistanceToEntity|method|net.minecraft.entity.Entity|getDistanceToEntity|(Lnet/minecraft/entity/Entity;)F
+      @|com\suamod\TrapService.java|2897|2903|player|param|com.suamod.TrapService|findTarget|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;|player|1
+      @|com\suamod\TrapService.java|2949|2955|player|param|com.suamod.TrapService|findTarget|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;|player|1
+      @|com\suamod\TrapService.java|2956|2971|canEntityBeSeen|method|net.minecraft.entity.EntityLivingBase|canEntityBeSeen|(Lnet/minecraft/entity/Entity;)Z
+      @|com\suamod\TrapService.java|3002|3016|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+   Method End: findTarget(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayerMP;)Lnet/minecraft/entity/player/EntityPlayerMP;
+   Method Start: isReplaceable(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z
+      @|com\suamod\TrapService.java|3130|3143|isReplaceable|method|com.suamod.TrapService|isReplaceable|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z
+      @|com\suamod\TrapService.java|3144|3149|World|class|net.minecraft.world.World
+      @|com\suamod\TrapService.java|3150|3155|world|param|com.suamod.TrapService|isReplaceable|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z|world|0
+      @|com\suamod\TrapService.java|3157|3165|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|3166|3169|pos|param|com.suamod.TrapService|isReplaceable|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z|pos|1
+      @|com\suamod\TrapService.java|3181|3186|Block|class|net.minecraft.block.Block
+      @|com\suamod\TrapService.java|3191|3196|world|param|com.suamod.TrapService|isReplaceable|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z|world|0
+      @|com\suamod\TrapService.java|3197|3210|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com\suamod\TrapService.java|3211|3214|pos|param|com.suamod.TrapService|isReplaceable|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z|pos|1
+      @|com\suamod\TrapService.java|3216|3224|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com\suamod\TrapService.java|3242|3247|isAir|method|net.minecraft.block.Block|isAir|(Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/BlockPos;)Z
+      @|com\suamod\TrapService.java|3248|3253|world|param|com.suamod.TrapService|isReplaceable|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z|world|0
+      @|com\suamod\TrapService.java|3255|3258|pos|param|com.suamod.TrapService|isReplaceable|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z|pos|1
+      @|com\suamod\TrapService.java|3282|3290|Material|class|net.minecraft.block.material.Material
+      @|com\suamod\TrapService.java|3297|3308|getMaterial|method|net.minecraft.block.Block|getMaterial|()Lnet/minecraft/block/material/Material;
+      @|com\suamod\TrapService.java|3326|3339|isReplaceable|method|net.minecraft.block.material.Material|isReplaceable|()Z
+      @|com\suamod\TrapService.java|3381|3392|BlockLiquid|class|net.minecraft.block.BlockLiquid
+   Method End: isReplaceable(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z
+   Method Start: placeBlockFromHotbar(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z
+      @|com\suamod\TrapService.java|3463|3483|placeBlockFromHotbar|method|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z
+      @|com\suamod\TrapService.java|3484|3495|WorldServer|class|net.minecraft.world.WorldServer
+      @|com\suamod\TrapService.java|3496|3501|world|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|world|0
+      @|com\suamod\TrapService.java|3503|3511|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|3512|3515|pos|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|pos|1
+      @|com\suamod\TrapService.java|3517|3531|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|3532|3538|player|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|player|2
+      @|com\suamod\TrapService.java|3544|3548|slot|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|slot|3
+      @|com\suamod\TrapService.java|3564|3568|slot|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|slot|3
+      @|com\suamod\TrapService.java|3596|3605|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\suamod\TrapService.java|3610|3616|player|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|player|2
+      @|com\suamod\TrapService.java|3617|3626|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\suamod\TrapService.java|3627|3640|mainInventory|field|net.minecraft.entity.player.InventoryPlayer|mainInventory
+      @|com\suamod\TrapService.java|3641|3645|slot|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|slot|3
+      @|com\suamod\TrapService.java|3701|3708|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com\suamod\TrapService.java|3722|3731|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\suamod\TrapService.java|3756|3761|Block|class|net.minecraft.block.Block
+      @|com\suamod\TrapService.java|3772|3781|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\suamod\TrapService.java|3785|3792|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com\suamod\TrapService.java|3796|3804|getBlock|method|net.minecraft.item.ItemBlock|getBlock|()Lnet/minecraft/block/Block;
+      @|com\suamod\TrapService.java|3821|3834|isReplaceable|method|com.suamod.TrapService|isReplaceable|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z
+      @|com\suamod\TrapService.java|3835|3840|world|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|world|0
+      @|com\suamod\TrapService.java|3842|3845|pos|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|pos|1
+      @|com\suamod\TrapService.java|3870|3875|world|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|world|0
+      @|com\suamod\TrapService.java|3876|3889|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+      @|com\suamod\TrapService.java|3890|3893|pos|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|pos|1
+      @|com\suamod\TrapService.java|3901|3916|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\suamod\TrapService.java|3938|3947|stackSize|field|net.minecraft.item.ItemStack|stackSize
+      @|com\suamod\TrapService.java|3968|3974|player|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|player|2
+      @|com\suamod\TrapService.java|3975|3984|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\suamod\TrapService.java|3985|3998|mainInventory|field|net.minecraft.entity.player.InventoryPlayer|mainInventory
+      @|com\suamod\TrapService.java|3999|4003|slot|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|slot|3
+      @|com\suamod\TrapService.java|4044|4053|stackSize|field|net.minecraft.item.ItemStack|stackSize
+      @|com\suamod\TrapService.java|4075|4081|player|param|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z|player|2
+      @|com\suamod\TrapService.java|4082|4091|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\suamod\TrapService.java|4092|4101|markDirty|method|net.minecraft.inventory.IInventory|markDirty|()V
+   Method End: placeBlockFromHotbar(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z
+   Method Start: surroundSides(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|4157|4170|surroundSides|method|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|4171|4182|WorldServer|class|net.minecraft.world.WorldServer
+      @|com\suamod\TrapService.java|4183|4188|world|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|4190|4198|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|4199|4203|feet|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|feet|1
+      @|com\suamod\TrapService.java|4205|4219|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|4220|4226|player|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|4228|4237|Resources|class|com.suamod.TrapService.Resources
+      @|com\suamod\TrapService.java|4238|4241|res|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|4253|4273|placeBlockFromHotbar|method|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z
+      @|com\suamod\TrapService.java|4274|4279|world|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|4281|4285|feet|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|feet|1
+      @|com\suamod\TrapService.java|4286|4291|north|method|net.minecraft.util.BlockPos|north|()Lnet/minecraft/util/BlockPos;
+      @|com\suamod\TrapService.java|4295|4301|player|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|4303|4306|res|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|4307|4316|blockSlot|field|com.suamod.TrapService.Resources|blockSlot
+      @|com\suamod\TrapService.java|4327|4347|placeBlockFromHotbar|method|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z
+      @|com\suamod\TrapService.java|4348|4353|world|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|4355|4359|feet|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|feet|1
+      @|com\suamod\TrapService.java|4360|4365|south|method|net.minecraft.util.BlockPos|south|()Lnet/minecraft/util/BlockPos;
+      @|com\suamod\TrapService.java|4369|4375|player|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|4377|4380|res|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|4381|4390|blockSlot|field|com.suamod.TrapService.Resources|blockSlot
+      @|com\suamod\TrapService.java|4401|4421|placeBlockFromHotbar|method|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z
+      @|com\suamod\TrapService.java|4422|4427|world|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|4429|4433|feet|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|feet|1
+      @|com\suamod\TrapService.java|4434|4438|east|method|net.minecraft.util.BlockPos|east|()Lnet/minecraft/util/BlockPos;
+      @|com\suamod\TrapService.java|4442|4448|player|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|4450|4453|res|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|4454|4463|blockSlot|field|com.suamod.TrapService.Resources|blockSlot
+      @|com\suamod\TrapService.java|4474|4494|placeBlockFromHotbar|method|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z
+      @|com\suamod\TrapService.java|4495|4500|world|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|4502|4506|feet|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|feet|1
+      @|com\suamod\TrapService.java|4507|4511|west|method|net.minecraft.util.BlockPos|west|()Lnet/minecraft/util/BlockPos;
+      @|com\suamod\TrapService.java|4515|4521|player|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|4523|4526|res|param|com.suamod.TrapService|surroundSides|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|4527|4536|blockSlot|field|com.suamod.TrapService.Resources|blockSlot
+   Method End: surroundSides(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+   Method Start: placeTop(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|4570|4578|placeTop|method|com.suamod.TrapService|placeTop|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|4579|4590|WorldServer|class|net.minecraft.world.WorldServer
+      @|com\suamod\TrapService.java|4591|4596|world|param|com.suamod.TrapService|placeTop|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|4598|4606|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|4607|4610|top|param|com.suamod.TrapService|placeTop|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|top|1
+      @|com\suamod\TrapService.java|4612|4626|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|4627|4633|player|param|com.suamod.TrapService|placeTop|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|4635|4644|Resources|class|com.suamod.TrapService.Resources
+      @|com\suamod\TrapService.java|4645|4648|res|param|com.suamod.TrapService|placeTop|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|4660|4680|placeBlockFromHotbar|method|com.suamod.TrapService|placeBlockFromHotbar|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;I)Z
+      @|com\suamod\TrapService.java|4681|4686|world|param|com.suamod.TrapService|placeTop|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|4688|4691|top|param|com.suamod.TrapService|placeTop|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|top|1
+      @|com\suamod\TrapService.java|4693|4699|player|param|com.suamod.TrapService|placeTop|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|4701|4704|res|param|com.suamod.TrapService|placeTop|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|4705|4714|blockSlot|field|com.suamod.TrapService.Resources|blockSlot
+   Method End: placeTop(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+   Method Start: placeLava(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|4748|4757|placeLava|method|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|4758|4769|WorldServer|class|net.minecraft.world.WorldServer
+      @|com\suamod\TrapService.java|4770|4775|world|param|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|4777|4785|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|4786|4790|head|param|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|head|1
+      @|com\suamod\TrapService.java|4792|4806|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|4807|4813|player|param|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|4815|4824|Resources|class|com.suamod.TrapService.Resources
+      @|com\suamod\TrapService.java|4825|4828|res|param|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|4845|4858|isReplaceable|method|com.suamod.TrapService|isReplaceable|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z
+      @|com\suamod\TrapService.java|4859|4864|world|param|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|4866|4870|head|param|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|head|1
+      @|com\suamod\TrapService.java|4889|4894|world|param|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|4895|4908|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+      @|com\suamod\TrapService.java|4909|4913|head|param|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|head|1
+      @|com\suamod\TrapService.java|4915|4921|Blocks|class|net.minecraft.init.Blocks
+      @|com\suamod\TrapService.java|4922|4926|lava|field|net.minecraft.init.Blocks|lava
+      @|com\suamod\TrapService.java|4927|4942|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\suamod\TrapService.java|4958|4977|consumeFilledBucket|method|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V
+      @|com\suamod\TrapService.java|4978|4984|player|param|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|4986|4989|res|param|com.suamod.TrapService|placeLava|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|4990|4998|lavaSlot|field|com.suamod.TrapService.Resources|lavaSlot
+   Method End: placeLava(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+   Method Start: placeWaterAdjacent(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|5032|5050|placeWaterAdjacent|method|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+      @|com\suamod\TrapService.java|5051|5062|WorldServer|class|net.minecraft.world.WorldServer
+      @|com\suamod\TrapService.java|5063|5068|world|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|5070|5078|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|5079|5083|head|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|head|1
+      @|com\suamod\TrapService.java|5085|5099|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|5100|5106|player|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|5108|5117|Resources|class|com.suamod.TrapService.Resources
+      @|com\suamod\TrapService.java|5118|5121|res|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|5133|5141|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|5156|5164|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|5167|5171|head|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|head|1
+      @|com\suamod\TrapService.java|5172|5177|north|method|net.minecraft.util.BlockPos|north|()Lnet/minecraft/util/BlockPos;
+      @|com\suamod\TrapService.java|5181|5185|head|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|head|1
+      @|com\suamod\TrapService.java|5186|5191|south|method|net.minecraft.util.BlockPos|south|()Lnet/minecraft/util/BlockPos;
+      @|com\suamod\TrapService.java|5195|5199|head|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|head|1
+      @|com\suamod\TrapService.java|5200|5204|east|method|net.minecraft.util.BlockPos|east|()Lnet/minecraft/util/BlockPos;
+      @|com\suamod\TrapService.java|5208|5212|head|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|head|1
+      @|com\suamod\TrapService.java|5213|5217|west|method|net.minecraft.util.BlockPos|west|()Lnet/minecraft/util/BlockPos;
+      @|com\suamod\TrapService.java|5235|5243|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\suamod\TrapService.java|5273|5286|isReplaceable|method|com.suamod.TrapService|isReplaceable|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)Z
+      @|com\suamod\TrapService.java|5287|5292|world|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|5316|5321|world|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|world|0
+      @|com\suamod\TrapService.java|5322|5335|setBlockState|method|net.minecraft.world.World|setBlockState|(Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+      @|com\suamod\TrapService.java|5339|5345|Blocks|class|net.minecraft.init.Blocks
+      @|com\suamod\TrapService.java|5346|5351|water|field|net.minecraft.init.Blocks|water
+      @|com\suamod\TrapService.java|5352|5367|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\suamod\TrapService.java|5391|5410|consumeFilledBucket|method|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V
+      @|com\suamod\TrapService.java|5411|5417|player|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|player|2
+      @|com\suamod\TrapService.java|5419|5422|res|param|com.suamod.TrapService|placeWaterAdjacent|(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V|res|3
+      @|com\suamod\TrapService.java|5423|5432|waterSlot|field|com.suamod.TrapService.Resources|waterSlot
+   Method End: placeWaterAdjacent(Lnet/minecraft/world/WorldServer;Lnet/minecraft/util/BlockPos;Lnet/minecraft/entity/player/EntityPlayerMP;Lcom/suamod/TrapService$Resources;)V
+   Method Start: consumeFilledBucket(Lnet/minecraft/entity/player/EntityPlayerMP;I)V
+      @|com\suamod\TrapService.java|5514|5533|consumeFilledBucket|method|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V
+      @|com\suamod\TrapService.java|5534|5548|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TrapService.java|5549|5555|player|param|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V|player|0
+      @|com\suamod\TrapService.java|5561|5565|slot|param|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V|slot|1
+      @|com\suamod\TrapService.java|5581|5585|slot|param|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V|slot|1
+      @|com\suamod\TrapService.java|5607|5616|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\suamod\TrapService.java|5621|5627|player|param|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V|player|0
+      @|com\suamod\TrapService.java|5628|5637|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\suamod\TrapService.java|5638|5651|mainInventory|field|net.minecraft.entity.player.InventoryPlayer|mainInventory
+      @|com\suamod\TrapService.java|5652|5656|slot|param|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V|slot|1
+      @|com\suamod\TrapService.java|5704|5713|stackSize|field|net.minecraft.item.ItemStack|stackSize
+      @|com\suamod\TrapService.java|5734|5740|player|param|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V|player|0
+      @|com\suamod\TrapService.java|5741|5750|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\suamod\TrapService.java|5751|5764|mainInventory|field|net.minecraft.entity.player.InventoryPlayer|mainInventory
+      @|com\suamod\TrapService.java|5765|5769|slot|param|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V|slot|1
+      @|com\suamod\TrapService.java|5777|5786|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\suamod\TrapService.java|5787|5792|Items|class|net.minecraft.init.Items
+      @|com\suamod\TrapService.java|5793|5799|bucket|field|net.minecraft.init.Items|bucket
+      @|com\suamod\TrapService.java|5833|5842|stackSize|field|net.minecraft.item.ItemStack|stackSize
+      @|com\suamod\TrapService.java|5858|5867|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\suamod\TrapService.java|5880|5889|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\suamod\TrapService.java|5890|5895|Items|class|net.minecraft.init.Items
+      @|com\suamod\TrapService.java|5896|5902|bucket|field|net.minecraft.init.Items|bucket
+      @|com\suamod\TrapService.java|5933|5939|player|param|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V|player|0
+      @|com\suamod\TrapService.java|5940|5949|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\suamod\TrapService.java|5950|5973|addItemStackToInventory|method|net.minecraft.entity.player.InventoryPlayer|addItemStackToInventory|(Lnet/minecraft/item/ItemStack;)Z
+      @|com\suamod\TrapService.java|6024|6030|player|param|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V|player|0
+      @|com\suamod\TrapService.java|6031|6061|dropPlayerItemWithRandomChoice|method|net.minecraft.entity.player.EntityPlayer|dropPlayerItemWithRandomChoice|(Lnet/minecraft/item/ItemStack;Z)Lnet/minecraft/entity/item/EntityItem;
+      @|com\suamod\TrapService.java|6109|6115|player|param|com.suamod.TrapService|consumeFilledBucket|(Lnet/minecraft/entity/player/EntityPlayerMP;I)V|player|0
+      @|com\suamod\TrapService.java|6116|6125|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\suamod\TrapService.java|6126|6135|markDirty|method|net.minecraft.inventory.IInventory|markDirty|()V
+   Method End: consumeFilledBucket(Lnet/minecraft/entity/player/EntityPlayerMP;I)V
+Class End  : com.suamod.TrapService
+endProcessing com\suamod\TrapService.java
+
+processing com\suamod\TriggerTrapHandler.java
+@|com\suamod\TriggerTrapHandler.java|8|18|com.suamod|package|com.suamod|(file)
+Class Start: com.suamod.TriggerTrapHandler
+   Method Start: onMessage(Lcom/suamod/TriggerTrapMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+      @|com\suamod\TriggerTrapHandler.java|452|461|onMessage|method|net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler|onMessage|(Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+      @|com\suamod\TriggerTrapHandler.java|443|451|IMessage|class|net.minecraftforge.fml.common.network.simpleimpl.IMessage
+      @|com\suamod\TriggerTrapHandler.java|462|480|TriggerTrapMessage|class|com.suamod.TriggerTrapMessage
+      @|com\suamod\TriggerTrapHandler.java|481|488|message|param|com.suamod.TriggerTrapHandler|onMessage|(Lcom/suamod/TriggerTrapMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|message|0
+      @|com\suamod\TriggerTrapHandler.java|490|504|MessageContext|class|net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+      @|com\suamod\TriggerTrapHandler.java|505|508|ctx|param|com.suamod.TriggerTrapHandler|onMessage|(Lcom/suamod/TriggerTrapMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|ctx|1
+      @|com\suamod\TriggerTrapHandler.java|526|540|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|com\suamod\TriggerTrapHandler.java|550|553|ctx|param|com.suamod.TriggerTrapHandler|onMessage|(Lcom/suamod/TriggerTrapMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;|ctx|1
+      @|com\suamod\TriggerTrapHandler.java|554|570|getServerHandler|method|net.minecraftforge.fml.common.network.simpleimpl.MessageContext|getServerHandler|()Lnet/minecraft/network/NetHandlerPlayServer;
+      @|com\suamod\TriggerTrapHandler.java|573|585|playerEntity|field|net.minecraft.network.NetHandlerPlayServer|playerEntity
+      @|com\suamod\TriggerTrapHandler.java|595|610|IThreadListener|class|net.minecraft.util.IThreadListener
+      @|com\suamod\TriggerTrapHandler.java|627|645|getServerForPlayer|method|net.minecraft.entity.player.EntityPlayerMP|getServerForPlayer|()Lnet/minecraft/world/WorldServer;
+      @|com\suamod\TriggerTrapHandler.java|664|680|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+      @|com\suamod\TriggerTrapHandler.java|685|693|Runnable|class|java.lang.Runnable
+      Anon Class Start: com.suamod.TriggerTrapHandler$1
+         Method Start: run()V
+            @|com\suamod\TriggerTrapHandler.java|744|747|run|method|java.lang.Runnable|run|()V
+            @|com\suamod\TriggerTrapHandler.java|768|779|TrapService|class|com.suamod.TrapService
+            @|com\suamod\TriggerTrapHandler.java|780|787|runTrap|method|com.suamod.TrapService|runTrap|(Lnet/minecraft/entity/player/EntityPlayerMP;)V
+         Method End: run()V
+      Anon Class End: com.suamod.TriggerTrapHandler$1
+   Method End: onMessage(Lcom/suamod/TriggerTrapMessage;Lnet/minecraftforge/fml/common/network/simpleimpl/MessageContext;)Lnet/minecraftforge/fml/common/network/simpleimpl/IMessage;
+Class End  : com.suamod.TriggerTrapHandler
+endProcessing com\suamod\TriggerTrapHandler.java
+
+processing com\suamod\TriggerTrapMessage.java
+@|com\suamod\TriggerTrapMessage.java|8|18|com.suamod|package|com.suamod|(file)
+Class Start: com.suamod.TriggerTrapMessage
+   Method Start: fromBytes(Lio/netty/buffer/ByteBuf;)V
+      @|com\suamod\TriggerTrapMessage.java|204|213|fromBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V
+      @|com\suamod\TriggerTrapMessage.java|214|221|ByteBuf|class|io.netty.buffer.ByteBuf
+      @|com\suamod\TriggerTrapMessage.java|222|225|buf|param|com.suamod.TriggerTrapMessage|fromBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+   Method End: fromBytes(Lio/netty/buffer/ByteBuf;)V
+   Method Start: toBytes(Lio/netty/buffer/ByteBuf;)V
+      @|com\suamod\TriggerTrapMessage.java|261|268|toBytes|method|net.minecraftforge.fml.common.network.simpleimpl.IMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V
+      @|com\suamod\TriggerTrapMessage.java|269|276|ByteBuf|class|io.netty.buffer.ByteBuf
+      @|com\suamod\TriggerTrapMessage.java|277|280|buf|param|com.suamod.TriggerTrapMessage|toBytes|(Lio/netty/buffer/ByteBuf;)V|buf|0
+   Method End: toBytes(Lio/netty/buffer/ByteBuf;)V
+Class End  : com.suamod.TriggerTrapMessage
+endProcessing com\suamod\TriggerTrapMessage.java
+
