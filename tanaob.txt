@@ -1,0 +1,49 @@
+Estou criando um mod para Minecraft na versão 1.8.9, com o objetivo de criar uma trap automática que prenda um jogador dentro de obsidian e cause dano de sufocamento. A mecânica envolve cercar o jogador com blocos ao redor dele (exceto embaixo), tampando também a parte superior para evitar que ele pule, e depois colocar a lava no mesmo bloco da cabeça do jogador, a água será colocada ao lado para completar a mecânica. onde a obsidian será criada, fazendo o jogador ficar preso e tomar dano de sufocamento. 
+
+Requisitos:
+
+Cercar o jogador:
+
+O mod deve cercar o jogador colocando blocos ao lado dele e no topo, para impedir que ele escape ou pule.
+
+Embaixo, o jogador já estará sobre o chão, então não é necessário adicionar blocos nessa parte. O foco é cercar nas laterais e tampando a parte superior da cabeça do jogador.
+
+Quando o jogador estiver em um canto ou perto de uma parede, o mod deve cercar nas laterais acessíveis e tampar a parte superior, mas não precisa adicionar blocos atrás (pois o ambiente já está impedindo a fuga nesse caso).
+
+Mecânica de Sufocamento e Dano:
+
+Após cercar o jogador, o mod deve colocar a lava no mesmo bloco da cabeça do jogador, ou seja, no bloco onde o jogador está posicionado, em seguida por a água no bloco ao lado da lava. Isso fará com que a obsidian seja criada no mesmo bloco da cabeça do jogador, prendendo o jogador e causando o dano de sufocamento.
+
+O após colocar a lava o mod também deve colocar água em um dos blocos ao lado do jogador, para garantir que o jogador fique preso na obsidian.
+
+Hotbar e Prioridade de Blocos:
+
+O mod deve verificar a hotbar do jogador para garantir que ele tenha blocos, lava e água disponíveis para a trap funcionar.
+
+A prioridade de blocos deve ser:
+
+Muro de pedregulho (cobblestone wall) – o bloco mais eficiente para cercar o jogador.
+
+Se não houver muro de pedregulho, usar qualquer tipo de bloco de madeira (carvalho, pinho, etc.).
+
+Caso não haja nem muro de pedregulho nem madeira, usar qualquer outro bloco disponível na hotbar.
+
+O mod não deve funcionar sem que o jogador tenha pelo menos um bloco, lava e água na hotbar.
+
+Regras de Execução:
+
+O mod só deve funcionar se o jogador tiver pelo menos um bloco, lava e água na hotbar.
+
+Se esses itens não estiverem presentes, o mod não deve fazer nada, não colocando blocos, lava ou água.
+
+Objetivo Final:
+
+O jogador será cercado de forma inteligente, levando em conta o ambiente em que ele está (em um canto ou perto de uma parede, por exemplo). O mod vai preencher as laterais e o topo para garantir que o jogador não possa escapar.
+
+A lava será colocada no mesmo bloco da cabeça do jogador, e a água será colocada ao lado do bloco onde a lava foi colocada. Isso criará a obsidian nesse bloco e causará o sufocamento.
+
+Versão do Minecraft e Forge:
+
+Minecraft 1.8.9
+
+Mod usando Forge
